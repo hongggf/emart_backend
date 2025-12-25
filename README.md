@@ -33,21 +33,26 @@ This API is designed to serve a **Flutter mobile application** with secure token
 
 
 Step 1: Clone the Repository
-git clone 
+```
+git clone https://github.com/hongggf/emart_backend.git
 cd laravel_ecommerce_api
-
+```
 Step 2: Install Dependencies
+```
 composer install
-
+```
 Step 3: Environment Configuration
+```
 cp .env.example .env
 php artisan key:generate
-
+```
 
 Update .env with your database credentials.
 
 Step 4: Run Migrations
+```
 php artisan migrate
+```
 
 Step 5: Start the Server
 php artisan serve
